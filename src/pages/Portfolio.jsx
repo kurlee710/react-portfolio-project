@@ -1,11 +1,12 @@
 import React from "react";
 import Project from "../components/Project";
+import quizImage from "../assets/images/quiz-me-screenshot.png"; // Import the image
 
 const Portfolio = () => {
   const projects = [
     {
       title: "Project 1",
-      image: "",
+      image: quizImage, // Use the imported image here
       liveLink: "https://kurlee710.github.io/quiz-me-repo/",
       repoLink: "https://github.com/kurlee710/quiz-me-repo",
       description: "Description of project 1.",
