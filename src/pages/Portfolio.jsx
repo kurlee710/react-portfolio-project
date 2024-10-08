@@ -1,10 +1,25 @@
 import React from "react";
 import Project from "../components/Project";
-
+import quizImage from "../assets/images/quiz-me-screenshot.png"; // Import the image
+import bucketListImage from "../assets/images/bucketlist-screenshot.png"; // Import the image
 const Portfolio = () => {
   const projects = [
-    { title: "Project 1", description: "Description of project 1." },
-    { title: "Project 2", description: "Description of project 2." },
+    {
+      title: "Quiz Me",
+      image: quizImage, // Use the imported image here
+      liveLink: "https://kurlee710.github.io/quiz-me-repo/",
+      repoLink: "https://github.com/kurlee710/quiz-me-repo",
+      description:
+        "A quiz web app that tests the users knowledge on html, css, and javascript.",
+    },
+    {
+      title: "Bucket List",
+      image: bucketListImage,
+      liveLink: "https://heartfelt-raindrop-1cfaab.netlify.app",
+      repoLink: "https://github.com/kurlee710/bucketlist-app",
+      description:
+        "A web app that allows the user to add items to their bucket list and apply a priority level.",
+    },
     { title: "Project 3", description: "Description of project 3." },
   ];
 
@@ -16,6 +31,9 @@ const Portfolio = () => {
           <Project
             key={index}
             title={project.title}
+            image={project.image}
+            liveLink={project.liveLink}
+            repoLink={project.repoLink}
             description={project.description}
           />
         ))}
