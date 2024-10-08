@@ -4,7 +4,15 @@ import { Link } from "react-router-dom";
 const Navigation = () => {
   return (
     <nav>
-      <ul>
+      <ul
+        style={{
+          listStyleType: "none",
+          padding: 0,
+          display: "flex",
+          justifyContent: "center", // This centers the navigation links
+          gap: "20px",
+        }}
+      >
         <li>
           <Link to="/">Home</Link>
         </li>
