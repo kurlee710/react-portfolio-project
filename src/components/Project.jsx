@@ -6,6 +6,14 @@ const Project = ({ title, description, image, liveLink, repoLink }) => {
       <h3>{title}</h3>
       <img src={image} alt={`${title} screentshot`} />
       <p>{description}</p>
+      <div classname="project-links">
+        <a href={liveLink} target="_blank" rel="noreferrer">
+          Live Demo
+        </a>
+        <a href={repoLink} target="_blank" rel="noreferrer">
+          GitHub Repo
+        </a>
+      </div>
     </div>
   );
 };
