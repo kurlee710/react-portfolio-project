@@ -5,18 +5,20 @@ import bucketListImage from "../assets/images/bucketlist-screenshot.png"; // Imp
 const Portfolio = () => {
   const projects = [
     {
-      title: "Project 1",
+      title: "Quiz Me",
       image: quizImage, // Use the imported image here
       liveLink: "https://kurlee710.github.io/quiz-me-repo/",
       repoLink: "https://github.com/kurlee710/quiz-me-repo",
-      description: "Description of project 1.",
+      description:
+        "A quiz web app that tests the users knowledge on html, css, and javascript.",
     },
     {
-      title: "Project 2",
+      title: "Bucket List",
       image: bucketListImage,
       liveLink: "https://heartfelt-raindrop-1cfaab.netlify.app",
       repoLink: "https://github.com/kurlee710/bucketlist-app",
-      description: "Description of project 2.",
+      description:
+        "A web app that allows the user to add items to their bucket list and apply a priority level.",
     },
     { title: "Project 3", description: "Description of project 3." },
   ];
