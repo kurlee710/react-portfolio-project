@@ -5,7 +5,7 @@ const Navigation = () => {
   return (
     <nav>
       <ul
-        classname="nav-list"
+        className="nav-list"
         style={{
           listStyleType: "none",
           padding: 0,
