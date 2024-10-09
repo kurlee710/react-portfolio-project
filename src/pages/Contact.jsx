@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div>
+    <div style={{ color: "black" }}>
       <h2>Contact Me</h2>
       <p>Email: josephatamaniuk@gmail.com</p>
       <p>Phone: (901) 867-5309</p>

@@ -5,6 +5,91 @@
   text-align: center;
 }
 
+body {
+  background-color: rgb(0, 105, 137); /* Light background color */
+  color: rgb(197 149 135);
+  font-family: Arial, sans-serif; /* Font family for the page */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(234, 235, 237); /* Header background */
+  padding: 20px; /* Padding for the header */
+  text-align: center; /* Center text in header */
+  border-radius: 20px; /* Rounded corners */
+  color: white; /* Set header text color to white */
+}
+
+h1 {
+  color: rgb(197 149 135); /* Set header title color to black */
+}
+
+h2 {
+  color: rgb(197 149 135); /* Set header title color to black */
+}
+
+nav {
+  margin-top: 10px; /* Space between header title and nav */
+}
+
+.nav-list {
+  list-style-type: none; /* No bullet points for nav */
+  padding: 0; /* No padding */
+  margin: 0; /* No margin */
+  display: flex; /* Display links in a row */
+  justify-content: center; /* Center nav items */
+  gap: 20px; /* Space between links */
+}
+
+.nav-list a {
+  text-decoration: none; /* Remove underline from links */
+  color: rgb(197 149 135) !important; /* Set link color to black */
+  font-weight: bold; /* Bold links */
+}
+
+.nav-list a:hover {
+  color: rgb(163, 186, 195); /* Change color on hover */
+}
+
+.project-item {
+  border: 1px solid rgb(0, 105, 137); /* Border for project items */
+  padding: 15px; /* Padding inside project items */
+  margin: 20px; /* Space between project items */
+  border-radius: 20px; /* Rounded corners */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Slightly transparent background */
+  color: rbg(197 149 135);
+}
+
+.project-item img {
+  max-width: 100%; /* Responsive image */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.project-links a {
+  margin-left: 50px; /* Space between links */
+  color: black; /* Set link color to black */
+}
+
+.project-links a:hover {
+  color: rgb(163, 186, 195); /* Change color on hover */
+}
+
+footer {
+  background-color: rgb(0, 105, 137); /* Footer background color */
+  padding: 20px; /* Padding for the footer */
+  text-align: center; /* Center text in footer */
+  position: relative; /* Positioning for footer */
+  bottom: 0; /* Stick to bottom */
+  width: 100%; /* Full width */
+  color: black; /* Set footer text color to black */
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
