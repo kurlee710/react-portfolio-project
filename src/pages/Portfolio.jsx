@@ -24,9 +24,10 @@ const Portfolio = () => {
     {
       title: "OMDb API app",
       image: omdbImage,
-      liveLink: "",
+      liveLink: "https://omdb-api-app.netlify.app/",
       repoLink: "https://github.com/kurlee710/omdb-api-project/tree/main",
-      description: "Web app using the Open Movie Database api to fetch movies",
+      description:
+        "Web app using the Open Movie Database api to fetch movies (Live demo currently not working)",
     },
   ];
 
