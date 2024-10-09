@@ -2,6 +2,7 @@ import React from "react";
 import Project from "../components/Project";
 import quizImage from "../assets/images/quiz-me-screenshot.png"; // Import the image
 import bucketListImage from "../assets/images/bucketlist-screenshot.png"; // Import the image
+import omdbImage from "../assets/images/omdb-api-screenshot.png"; // Import the image
 const Portfolio = () => {
   const projects = [
     {
@@ -20,7 +21,13 @@ const Portfolio = () => {
       description:
         "A web app that allows the user to add items to their bucket list and apply a priority level.",
     },
-    { title: "Project 3", description: "Description of project 3." },
+    {
+      title: "OMDb API app",
+      image: omdbImage,
+      liveLink: "",
+      repoLink: "https://github.com/kurlee710/omdb-api-project/tree/main",
+      description: "Web app using the Open Movie Database api to fetch movies",
+    },
   ];
 
   return (

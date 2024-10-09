@@ -19,7 +19,12 @@ const Project = ({ title, description, image, liveLink, repoLink }) => {
         <a href={liveLink} target="_blank" rel="noreferrer">
           Live Demo
         </a>
-        <a href={repoLink} target="_blank" rel="noreferrer">
+        <a
+          href={repoLink}
+          target="_blank"
+          rel="noreferrer"
+          style={{ marginLeft: "50px" }}
+        >
           GitHub Repo
         </a>
       </div>
