@@ -6,16 +6,16 @@ const Project = ({ title, description, image, liveLink, repoLink }) => {
       <h3>{title}</h3>
       <img
         src={image}
-        alt={`${title} screentshot`}
+        alt={`${title} screenshot`}
         style={{
-          width: "450pxx",
+          width: "450px",
           height: "300px",
           objectFit: "cover",
           borderRadius: "10px",
         }}
       />
       <p>{description}</p>
-      <div classname="project-links">
+      <div className="project-links">
         <a href={liveLink} target="_blank" rel="noreferrer">
           Live Demo
         </a>

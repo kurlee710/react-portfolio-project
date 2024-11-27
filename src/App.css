@@ -78,7 +78,7 @@ nav {
 }
 
 .project-links a:hover {
-  color: rgb(163, 186, 195); /* Change color on hover */
+  color: rgb(0, 105, 137); /* Specific hover color for liveLink */
 }
 
 footer {
