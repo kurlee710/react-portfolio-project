@@ -9,6 +9,7 @@ const Footer = () => {
           style={{
             fontSize: "40px",
             transition: "color 0.3s ease", // Smooth transition effect
+            color: "rgb(234, 235, 237)", // Initial color
           }}
           onMouseEnter={(e) => (e.target.style.color = "rgb(163, 186, 195)")} // Change color on hover
           onMouseLeave={(e) => (e.target.style.color = "rgb(234, 235, 237)")} // Revert back on mouse leave

@@ -41,15 +41,17 @@ nav {
   display: flex; /* Display links in a row */
   justify-content: center; /* Center nav items */
   gap: 20px; /* Space between links */
+  color: rgb(197 149 135);
 }
 
 .nav-list a {
   text-decoration: none; /* Remove underline from links */
-  color: rgb(197 149 135) !important; /* Set link color to black */
+  color: rgb(197 149 135); /* Set link color to black */
   font-weight: bold; /* Bold links */
+  transition: color 0.3s ease; /* Smooth transition for color change */
 }
 
-.nav-list a:hover {
+li.nav-list a:hover {
   color: rgb(163, 186, 195); /* Change color on hover */
 }
 
